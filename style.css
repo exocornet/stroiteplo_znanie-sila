@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background: #fafafa;
+}
+header, nav, main {
+    margin: 0 auto;
+    max-width: 960px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 110px;
+}
+.header__logo img {
+    height: 110px;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-right: 32px;
+}
+.header__contacts a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #7e7e7e;
+    text-decoration: none;
+}
+.header__contacts a:first-child {
+    font-size: 44px;
+}
+.header__contacts a:last-child {
+    font-size: 25px;
+}
+.menu {
+    background: #f3f3f3;
+    margin-top: 10px;
+    padding-left: 12px;
+}
+.menu a {
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #7e7e7e;
+    text-decoration: none;
+    padding: 30px 38px 20px;
+}
+.menu a:hover, #activ {
+    background: #28c5e6;
+    color: white;
+}
+.content {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.content__projects {
+    width: 267px;
+}
+.content__projects_heading {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    background: #28c5e6;
+    color: white;
+    padding: 18px 44px;
+    margin: 0 0 36px;
+}
+.content__projects_menu {
+    display: flex;
+    flex-direction: column;
+    background: #f3f3f3;
+    min-height: 368px;
+}
+.content__projects_menu a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    padding: 7px 40px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #7e7e7e;
+}
+.content__projects_menu a:hover, #activ2 {
+    color: #28c5e6;
+}
+.content__page {
+     width: 664px;
+     margin-left: 29px;
+}
+.content__page__quotes {
+    background: #28c5e6;
+    color: white;
+    font-size: 18px;
+    padding: 30px 32px 50px 30px;
+    margin-bottom: 30px;
+}
+.content__page__quotes q {
+    quotes: none;
+    font-family: 'PT Sans', sans-serif;
+}
+.content__page__quotes p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+}
+.content__page__text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #7e7e7e;
+    padding: 0 32px 0 30px;
+    margin-bottom: 60px;
+}
+.content__page__text h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content__page__advantages {
+    margin-top: 60px;
+}
+.content__page__advantages h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    background: #28c5e6;
+    color: white;
+    padding: 18px 44px;
+    margin: 0 0 36px;
+}
+.content__page__advantages_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.content__page__advantages_container figure {
+    background-color: #c3c0c0;
+    text-align: center;
+    margin: 0;
+}
+.content__page__advantages_container img {
+    margin: 10px 65px;
+    height: 80px;
+}
+.content__page__advantages_container figcaption {
+    background-color: white;
+    color: #28c5e6;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+.footer {
+    background: #757373;
+}
+.footer__container {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 18px;
+}
+.footer__container__copyright {
+    margin: 45px 0 40px 40px;
+}
+.footer__container__creator {
+    margin: 45px 32px 40px 0;
+}
